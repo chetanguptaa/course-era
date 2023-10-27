@@ -1,14 +1,13 @@
-import './App.css'
-import Login  from './components/Login'
-import Course from './components/course/Course';
-import AddCourse from './components/course/AddCourse';
-import { Courses } from './components/course/Courses';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import SignUp from './components/Signup';
-import Appbar from './components/AppBar';
+import "./App.css";
+import Login from "./components/Login";
+import Course from "./components/course/Course";
+import AddCourse from "./components/course/AddCourse";
+import { Courses } from "./components/course/Courses";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SignUp from "./components/Signup";
+import Appbar from "./components/AppBar";
 
 function App() {
-
   return (
     <div>
       <Router>
@@ -22,7 +21,7 @@ function App() {
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
